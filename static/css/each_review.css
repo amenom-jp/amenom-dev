@@ -1,0 +1,57 @@
+article {
+    display:flex;             
+  }
+.side {
+   
+    width:30%;
+    height:1500px;
+    text-align:left;
+    margin-left:15px;
+  } 
+  .content {
+   
+    width:70%;
+    height:1500px;
+     
+  }
+  .header{background-color:darkturquoise; color:aliceblue; height:100px; margin:0px;}
+  .header-logo{font-family:"Quicksand"; padding:10px 20px; font-size:36px;float:left}
+  body{margin:0}
+  li{ float:left;list-style: none; }
+  ul{padding-left: 230px;}
+  ul li{font-size:16px; padding-left:50px;padding-top:0px;color:aliceblue;}
+  .header-login{float:right;padding-right:30px}
+  .login{float:right;font-size:16px;padding:16px 30px 5px 0px}
+  .header-list{clear:left}
+  form{padding:14px 0px 25px 20px;}
+  form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
+  .review-box{background-color:#fafafa;margin:0px 150px 30px 150px;width:60%;height:auto;word-break: break-all;padding:7px}
+  .review-box-right{text-align: right;}
+  .review-box-right img{padding:20px 20px 0px 0px;}
+  .review-box-left img{border-radius:50%;padding:20px  ;}
+  .username{font-size:15px;color:darkturquoise;font-weight: bold;}
+  .album-name{clear:left;font-weight:bold;word-break: normal;font-size:20px}
+  .review-box-top{display:flex;justify-content: space-between;}
+  .review-box p{padding:10px 12px 10px 12px;}
+  .continue{color:darkturquoise;font-weight: bold;}
+  .heart{float:left;font-size:20px;padding:10px 0px 0px 20px;}
+  .heartmark{color:pink;font-size:25px}
+  .star{text-align:right;color:darkturquoise;font-size:20px;}
+  .reply{margin:0px 150px 0px 150px;padding:7px;width:60%;word-break:break-all;background-color:#fafafa;height:auto;display:flex}
+    .h1{font-size:20px;font-weight:bold;margin:50px 0px 10px 160px;}
+  .h2{font-size:20px;font-weight:bold;margin:30px 0px 10px 160px;}
+  .username2{padding-left:20px;color:darkturquoise;font-weight:bold}
+  .user-reply{float:left}
+  .footer{font-size:20px;clear:left;background-color: darkturquoise;padding:50px;
+    text-align: center;color:aliceblue;font-family:"Quicksand"}
+  .side img{margin-top:100px}
+  .pagination {
+    display: inline-block;padding:60px 0px 0px 250px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }

@@ -1,0 +1,40 @@
+@charset "utf-8";
+.header{background-color:darkturquoise; color:aliceblue; height:100px; margin:0px;}
+.header-logo{font-family:"Quicksand"; padding:10px 20px; font-size:36px;float:left}
+body{margin:0}
+.header-list li{ float:left;list-style: none; }
+.header-list ul{padding-left: 230px;}
+.header-list ul li{font-size:16px; padding-left:50px;padding-top:0px;color:aliceblue;}
+.header-login{float:right;padding-right:30px}
+.login{float:right;font-size:16px;padding:16px 30px 5px 0px}
+.header-list{clear:left}
+form{padding:14px 0px 25px 20px;}
+form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
+.music-genre{display:flex}
+.music{display:flex;   justify-content: space-evenly;flex-wrap:wrap;padding-left:20px;}
+.music1{width:70%}
+h1{font-size:24px;padding:50px 0px 20px 60px;clear:left;color:darkturquoise;font-family:"Quicksand";}
+.contents-item{
+    float:left;margin-bottom:30px;padding-left: 17px;
+  }
+.contents-item p{text-align: right;padding-right:5px;color:darkturquoise}
+.pagination {
+    display: inline-block;padding:10px 0px 0px 300px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .genre{width:200px;background-color: #fafafa;margin: 0px 70px 0px 70px;padding-left: 20px;height:900px}
+  .genre li{list-style: none;padding-top: 40px;font-weight: bold;}
+
+
+
+
+
+
+  .footer{font-size:20px;clear:left;background-color: darkturquoise;padding:50px;
+    text-align: center;margin-top: 100px;color:aliceblue;font-family:"Quicksand"}
