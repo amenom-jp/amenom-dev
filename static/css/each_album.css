@@ -9,11 +9,12 @@ ul{padding-left: 230px;}
 form{padding:14px 0px 25px 20px;}
 form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
 .album-tag-ad{display:flex;width:100%;}
-.jacket{ width :100% ;font-size:30px;font-weight: bold;}
-.ad{ width :100%;}
+.jacket{ width :33% ;font-size:30px;font-weight: bold;margin-top: 10px;}
+.ad{margin-right: 60px; }
+.track{width:33%;padding:30px;margin-top:0px;}
 .jacket{padding:30px 0px 0px 40px}
-.jacket p{word-break: normal;font-size: 0.90em;}
-.tags{ width :100% ;background-color: #f5f5f5;margin:60px 15px 15px 15px;height:320px;padding:25px}
+.album-title{word-break: normal;font-size:30px;font-weight: bold;padding:50px 0px 0px 40px}
+.tags{ width :33% ;background-color: #f5f5f5;margin:40px 15px 15px 15px;height:280px;padding:25px}
 .tag-detail{margin:16px}
 .detail-contents{font-weight: bold;}
 .tag-tag{display:inline-block;float:left}
@@ -22,7 +23,7 @@ form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
 .ad img{padding:90px 20px 30px 30px}
 .review-track{display:flex}
 .review{width:65%}
-.track{width:35%;padding:30px;margin-top:20px;}
+
 ol{margin-right:90px;}
 .tracklist li{border-top:1px solid;list-style-position: inside;}
 .review{display:block; margin:50px 0px 0px 90px}
@@ -30,7 +31,7 @@ ol{margin-right:90px;}
 .review-box-right{text-align: right;}
 .review-box-right img{padding:20px 20px 0px 0px;}
 .review-box-left img{border-radius:50%;padding:20px ;float:left}
-.username{font-size:15px;color:darkturquoise;font-weight: bold;}
+.username{font-size:17px;color:darkturquoise;font-weight: bold;}
 .album-name{clear:left;font-weight:bold;word-break: normal;}
 .review-box-top{display:flex;justify-content: space-between;}
 .review-box p{padding:0px 12px 0px 12px; 
@@ -53,7 +54,8 @@ ol{margin-right:90px;}
 }
 .footer{font-size:20px;clear:left;background-color: darkturquoise;padding:50px;
     text-align: center;margin-top: 100px;color:aliceblue;font-family:"Quicksand"}
-h1{font-size:20px;font-weight: normal;margin-left:30px}
+h1{font-size:20px;font-weight: normal;margin-left:30px;}
+
 h2{font-size:20px;font-weight:normal;margin-left: 40px;}
 .heart{text-align: right;font-size:20px;padding:0px 20px 0px 0px;margin:0px}
   .heartmark{color:pink;font-size:25px}
