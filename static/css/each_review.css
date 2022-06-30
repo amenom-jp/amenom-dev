@@ -25,7 +25,7 @@ article {
   .header-list{clear:left}
   form{padding:14px 0px 25px 20px;}
   form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
-  .review-box{background-color:#fafafa;margin:0px 150px 30px 150px;width:60%;height:auto;word-break: break-all;padding:7px}
+  .review-box{background-color:#fafafa;margin:0px 150px 30px 150px;width:60%;height:auto;word-break: break-all;padding:7px;box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);}
   .review-box-right{text-align: right;}
   .review-box-right img{padding:20px 20px 0px 0px;}
   .review-box-left img{border-radius:50%;padding:20px  ;}

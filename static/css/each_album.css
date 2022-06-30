@@ -27,7 +27,7 @@ form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
 ol{margin-right:90px;}
 .tracklist li{border-top:1px solid;list-style-position: inside;}
 .review{display:block; margin:50px 0px 0px 90px}
-.review-box{width:75%;height:350px;background-color:#fafafa;word-break: break-all;padding:7px;margin:20px}
+.review-box{width:75%;height:350px;background-color:#fafafa;word-break: break-all;padding:7px;margin:20px;box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);}
 .review-box-right{text-align: right;}
 .review-box-right img{padding:20px 20px 0px 0px;}
 .review-box-left img{border-radius:50%;padding:20px ;float:left}

@@ -11,7 +11,7 @@ ul li{font-size:16px; padding-left:50px;padding-top:0px;color:aliceblue;}
 form{padding:14px 0px 25px 20px;}
 form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
 .review{display:flex;   justify-content: space-evenly;}
-.review-box{width:26%;height:350px;background-color:#fafafa;word-break: break-all;padding:7px}
+.review-box{width:26%;height:350px;background-color:#fafafa;word-break: break-all;padding:7px;box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);}
 .review-box-right{text-align: right;}
 .review-box-right img{padding:20px 20px 0px 0px;}
 .review-box-left img{border-radius:50%;padding:20px ;float:left}
@@ -25,7 +25,7 @@ form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
   -webkit-line-clamp: 4;
 }
 .continue{color:darkturquoise;font-weight: bold;}
-.star{text-align: right;color:darkturquoise}
+.star{text-align: right;color:darkturquoise;font-weight:bold;}
 .contents-item{
     float:left;padding-left:56px
   }
