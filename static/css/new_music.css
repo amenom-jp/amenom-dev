@@ -12,7 +12,7 @@ form{padding:14px 0px 25px 20px;}
 form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
 .music-genre{display:flex}
 .music{display:flex;   justify-content: space-evenly;flex-wrap:wrap;padding-left:20px;}
-.music1{width:70%}
+.music1{width:80%}
 h1{font-size:24px;padding:50px 0px 20px 40px;clear:left;color:darkturquoise;font-family:"Quicksand";}
 .contents-item{
     float:left;margin-bottom:30px;padding-left: 17px;
@@ -28,7 +28,7 @@ h1{font-size:24px;padding:50px 0px 20px 40px;clear:left;color:darkturquoise;font
     padding: 8px 16px;
     text-decoration: none;
   }
-  .genre{width:200px;background-color: #fafafa;margin: 0px 70px 0px 70px;padding-left: 20px;height:900px}
+  .genre{width:230px;background-color: #fafafa;margin: 0px 70px 0px 70px;padding-left: 0px;height:900px}
   .genre li{list-style: none;padding-top: 40px;font-weight: bold;}
 
 
