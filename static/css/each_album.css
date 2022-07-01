@@ -14,12 +14,15 @@ form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
 .track{width:33%;padding:30px;margin-top:0px;}
 .jacket{padding:30px 0px 0px 40px}
 .album-title{word-break: normal;font-size:30px;font-weight: bold;padding:50px 0px 0px 40px}
-.tags{ width :33% ;background-color: #f5f5f5;margin:40px 15px 15px 15px;height:280px;padding:25px}
+.tags{ width:33%;background-color:#f5f5f5;margin:40px 15px 15px 15px;height:280px;padding:25px}
 .tag-detail{margin:16px}
 .detail-contents{font-weight: bold;}
 .tag-tag{display:inline-block;float:left}
-.tag-tag-detail{width:80px;text-align: center;padding:4px 1px 1px 1px;height:30px; border-radius:5px;
-    color: #fff;background-color: darkturquoise;margin: 0 5px 5px 0;float:left;}
+.tag-tag-detail{width:100px;vertical-align:middle;text-align: left;padding: 4px;height:30px; border-radius:5px;
+    color: #fff;background-color: darkturquoise;margin: 3px;float:left;}
+.tag-tag-detail i {
+  margin: 6px 4px 0 4px;
+}
 .ad img{padding:90px 20px 30px 30px}
 .review-track{display:flex}
 .review{width:65%}
