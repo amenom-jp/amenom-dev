@@ -1,0 +1,10 @@
+.header{background-color:darkturquoise; color:aliceblue; height:100px; margin:0px;}
+.header-logo{font-family:"Quicksand"; padding:10px 20px; font-size:36px;float:left}
+body{margin:0}
+.bar{float:left;list-style: none;font-size:16px; padding-left:50px;padding-top:0px;color:aliceblue;}
+ul{padding-left: 230px;}
+.header-login{float:right;padding-right:30px}
+.login{float:right;font-size:16px;padding:16px 30px 5px 0px}
+.header-list{clear:left}
+form{padding:14px 0px 25px 20px;}
+form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
