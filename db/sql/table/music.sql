@@ -1,9 +1,7 @@
 CREATE TABLE "albums" (
     "album_id" TEXT NOT NULL,   -- id
     "name" TEXT NOT NULL,       -- アルバムの名前
-    "artist_id" TEXT NOT NULL,  -- アーティストのid
     "release" INTEGER,          -- リリース年
-    "label_id" INTEGER,         -- レーベルのid
     "rate" REAL,                -- レート
     "description" TEXT          -- 説明
 );
@@ -11,27 +9,33 @@ CREATE TABLE "albums" (
 CREATE TABLE "singles" (
     "single_id" TEXT NOT NULL,  -- id
     "name" TEXT NOT NULL,       -- シングルの名前
-    "artist_id" TEXT NOT NULL,  -- アーティストのid
     "release" INTEGER,          -- リリース年
-    "label_id" INTEGER,         -- レーベルのid
     "rate" REAL,                -- レート
     "description" TEXT          -- 説明
+);
+
+CREATE TABLE "records_artists_map" (
+    "record_id" TEXT NOT NULL,  -- アルバム，シングルのid
+    "artist_id" TEXT NOT NULL   -- アーティストのid
+);
+
+CREATE TABLE "records_labels_map" (
+    "record_id" TEXT NOT NULL,  -- アルバム，シングルのid
+    "label_id" INTEGER NOT NULL    -- レーベルのid
 );
 
 CREATE TABLE "songs" (
     "song_id" TEXT NOT NULL,    -- id
     "name" TEXT NOT NULL,       -- 曲の名前
-    "artist_id" TEXT NOT NULL,  -- アーティストのid
-    "album_id" TEXT,            -- アルバムのid
-    "single_id" TEXT            -- シングルのid
+    "rate" REAL                 -- レート
 );
 
-CREATE TABLE "label" (
-    "label_id" INTEGER NOT NULL,  -- id
-    "name" TEXT NOT NULL          -- レーベルの名前
+CREATE TABLE "records_songs_map" (
+    "record_id" TEXT NOT NULL,  -- アルバム，シングルのid
+    "song_id" TEXT NOT NULL     -- 曲のid
 );
 
 CREATE TABLE "new_music" (
     "new_music_id" TEXT NOT NULL,  -- id
-    "item_id" TEXT                 -- アルバム，シングルのid
+    "record_id" TEXT               -- アルバム，シングルのid
 );

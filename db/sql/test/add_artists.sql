@@ -1,0 +1,17 @@
+INSERT INTO artists(artist_id, name)
+VALUES ('40abd233-5a1d-5336-8b18-36afa2c5c752', 'Radiohead'),
+       ('23e1e836-c523-5e12-a7d7-484d0808c2b2', 'Kendrick Lamar'),
+       ('e0e2b555-81f0-586d-992d-8234de69af36', 'Pink Floyd'),
+       ('2c2a639e-e2cf-594e-82cf-3c4f9e744407', 'King Crimson'),
+       ('6dbc4414-9f8a-520a-8ac0-65af929319ec', 'My Bloody Valentine'),
+       ('ea79b3f8-dad5-5c2e-8f04-6fb4968877e5', 'Madvillain'),
+       ('ffccb26e-0b4a-5d62-bf5e-9ce2ead355e3', 'The Beatles'),
+       ('67463d67-679c-56ee-9bba-065faa6dcd39', 'David Bowie'),
+       ('0fd76eb0-c90c-5d04-a498-9fea9ee0cad9', 'Mingus'),
+       ('977d7624-d9e4-54fa-b5cd-a149a0b0a513', 'The Velvet Underground'),
+       ('95aa8cb3-3a7d-5aa5-b35a-285fe9bfaa48', 'Nico'),
+       ('8e9c117e-b591-57cc-b056-5010380b3dd3', 'Talking Heads'),
+       ('90e5460d-1b00-5daf-a01b-1dcf939acffd', 'John Coltrane'),
+       ('c9e4318f-a84e-542a-a6a9-8b2dfb714aba', 'Miles Davis'),
+       ('4ed3747b-0ab6-5f01-a10d-71c11884c1d5', 'Black Sabbath'),
+       ('e3ab219c-0615-564d-ae16-2812e5888fa1', 'Nas');

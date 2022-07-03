@@ -1,7 +1,7 @@
 CREATE TABLE "reviews" (
     "review_id" TEXT NOT NULL,  -- id
     "user_id" TEXT NOT NULL,    -- ユーザーのid
-    "item_id" TEXT NOT NULL,    -- アルバム，シングルのid
+    "record_id" TEXT NOT NULL,  -- アルバム，シングルのid
     "body" TEXT,                -- 本文
     "favorites" INTEGER         -- いいねの数
 );
