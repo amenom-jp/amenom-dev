@@ -1,10 +1,45 @@
+@charset "utf-8";
 .header{background-color:darkturquoise; color:aliceblue; height:100px; margin:0px;}
 .header-logo{font-family:"Quicksand"; padding:10px 20px; font-size:36px;float:left}
 body{margin:0}
-.bar{float:left;list-style: none;font-size:16px; padding-left:50px;padding-top:0px;color:aliceblue;}
-ul{padding-left: 230px;}
+.header-list li{ float:left;list-style: none; }
+.header-list ul{padding-left: 230px;}
+.header-list ul li{font-size:16px; padding-left:50px;padding-top:0px;color:aliceblue;}
 .header-login{float:right;padding-right:30px}
 .login{float:right;font-size:16px;padding:16px 30px 5px 0px}
 .header-list{clear:left}
+h1{font-size:15px;font-weight: normal;margin-left:50px;margin-bottom:30px}
 form{padding:14px 0px 25px 20px;}
 form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
+.review-track{display:flex}
+.review{display:block; margin:50px 0px 0px 90px;width:65%}
+.review-box{width:75%;height:350px;background-color:#fafafa;word-break: break-all;padding:7px;margin:20px;box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);}
+.review-box-right{text-align: right;}
+.review-box-right img{padding:20px 20px 0px 0px;}
+.review-box-left img{border-radius:50%;padding:20px ;float:left}
+.username{font-size:17px;color:darkturquoise;font-weight: bold;float:left}
+.album-name{clear:left;font-weight:bold;word-break: normal;}
+.review-box-top{display:flex;justify-content: space-between;}
+.review-box p{padding:0px 12px 0px 12px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+.continue{color:darkturquoise;font-weight: bold;margin-top:30px}
+.heart{text-align:right;font-size:20px;padding:0px 20px 0px 0px;margin:0px}
+  .heartmark{color:pink;font-size:25px}
+.star{width:420px;text-align:right;color:darkturquoise;font-size:22px;font-wight:bold;}
+.pagination {
+  display: inline-block;padding:60px 0px 0px 120px;
+}
+.side img{margin-top:100px}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.footer{font-size:20px;clear:left;background-color: darkturquoise;padding:50px;
+    text-align: center;margin-top: 100px;color:aliceblue;font-family:"Quicksand"}
