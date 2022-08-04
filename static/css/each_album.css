@@ -1,5 +1,19 @@
 .header{background-color:darkturquoise; color:aliceblue; height:100px; margin:0px;}
 .header-logo{font-family:"Quicksand"; padding:10px 20px; font-size:36px;float:left}
+a {
+    text-decoration: none;
+}
+
+.header-logo-text {
+    font-family: "Quicksand";
+    font-size: 36px;
+    color: aliceblue;
+}
+
+.header-list-text {
+    font-size: 16px;
+    color: aliceblue;
+}
 body{margin:0}
 .bar{float:left;list-style: none;font-size:16px; padding-left:50px;padding-top:0px;color:aliceblue;}
 ul{padding-left: 230px;}
@@ -43,7 +57,7 @@ ol{margin-right:90px;}
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
 }
-.continue{color:darkturquoise;font-weight: bold;margin-top:30px}
+.continue a{color:darkturquoise;font-weight: bold;margin-top:30px}
 
 .pagination {
   display: inline-block;padding:60px 0px 0px 120px;

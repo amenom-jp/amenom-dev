@@ -7,15 +7,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
     <title>amenom</title>
     <style>
-        .review-box-left img{
+        .review-box-left img {
           width: 50px;
           height: 50px;
         }
-        .review-box-right img{
+        .review-box-right img {
         width: 100px;
         height: 100px;
         }
-        .contents-item img{
+        .contents-item img {
           width: 150px;
           height: 150px;
         }
@@ -26,8 +26,10 @@
 
 <!-- header part -->
 <div class="header">
-    <div class="header-logo">amenom</div>
+    <div class="header-logo"><a class="header-logo-text" href="/">amenom</a></div>
+
     <div class="login">ログイン</div>
+
     <div class="header-login">
         <form method="get" action="https://www.google.co.jp/search" class="search_container">
             <input type="text" size="40" placeholder="   作品・アーティスト検索">
@@ -36,9 +38,9 @@
 
     <div class="header-list">
         <ul>
-            <li>New Music</li>
-            <li>レビュー</li>
-            <li>ジャンル</li>
+            <li><a class="header-list-text" href="/new_music">New Music</a></li>
+            <li><a class="header-list-text" href="/reviews">レビュー</a></li>
+            <li><a class="header-list-text" href="/genre">ジャンル</a></li>
         </ul>
     </div>
 </div>
@@ -47,12 +49,12 @@
 <div>
     <!-- Featured Reviews -->
     <div>
-        <h1>Featured Reviews ></h1>
+        <h1><a href="/reviews"> Featured Reviews ></a></h1>
         <div class="review">
             <div class="review-box">
                 <div class="review-box-top">
                     <div class="review-box-left">
-                        <img src="../static/img/sample.jpeg">
+                        <a href="/each_album"><img src="../static/img/sample.jpeg"></a>
                         <p class="username">keim</p>
                         <p class="album-name">Dark side of the moon (1973)</p>
                     </div>
@@ -66,7 +68,7 @@
                     皆にも聞いてほしい。皆にも聞いてもらえると私はとても喜ぶ。なぜかって？私は音楽を共有するのがとても好きだ。ノーミュージックノーライフ。ああああああああああああ
                     あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
                     </p>
-                    <p class="continue">>> 続きを読む</p>
+                    <p class="continue"><a href="/each_review">> 続きを読む</a></p>
                     <p class="star">★★★★★ 3.6</p>
                 </div>
             </div>
@@ -74,7 +76,7 @@
             <div class="review-box">
                 <div class="review-box-top">
                     <div class="review-box-left">
-                        <img src="../static/img/sample.jpeg">
+                        <a href="/each_album"><img src="../static/img/sample.jpeg"></a>
                         <p class="username">keim</p>
                         <p class="album-name">Dark side of the moon (1973)</p>
                     </div>
@@ -88,7 +90,7 @@
                     皆にも聞いてほしい。皆にも聞いてもらえると私はとても喜ぶ。なぜかって？私は音楽を共有するのがとても好きだ。ノーミュージックノーライフ。ああああああああああああ
                     あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
                     </p>
-                    <p class="continue">>> 続きを読む</p>
+                    <p class="continue"><a href="/each_review">> 続きを読む</a></p>
                     <p class="star">★★★★★ 3.6</p>
                 </div>
             </div>
@@ -96,7 +98,7 @@
             <div class="review-box">
                 <div class="review-box-top">
                     <div class="review-box-left">
-                        <img src="../static/img/sample.jpeg">
+                        <a href="/each_album"><img src="../static/img/sample.jpeg"></a>
                         <p class="username">keim</p>
                         <p class="album-name">Dark side of the moon (1973)</p>
                     </div>
@@ -110,7 +112,7 @@
                     皆にも聞いてほしい。皆にも聞いてもらえると私はとても喜ぶ。なぜかって？私は音楽を共有するのがとても好きだ。ノーミュージックノーライフ。ああああああああああああ
                     あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
                     </p>
-                    <p class="continue">>> 続きを読む</p>
+                    <p class="continue"><a href="/each_review">> 続きを読む</a></p>
                     <p class="star">★★★★★ 3.6</p>
                 </div>
             </div>
@@ -119,59 +121,29 @@
 
     <!-- New Music -->
     <div class="rate">
-        <h1>New Music ></h1>
+        <h1><a href="/new_music">New Music ></a></h1>
         <div class="contents-item">
-            <img src="../static/img/sample.jpeg">
+            <a href="/each_album"><img src="../static/img/sample.jpeg"></a>
             <p>★★★★★　　3.9</p>
         </div>
         <div class="contents-item">
-            <img src="../static/img/sample.jpeg">
+            <a href="/each_album"><img src="../static/img/sample.jpeg"></a>
             <p>★★★★★　　3.9</p>
         </div>
         <div class="contents-item">
-            <img src="../static/img/sample.jpeg">
+            <a href="/each_album"><img src="../static/img/sample.jpeg"></a>
             <p>★★★★★　　3.9</p>
         </div>
         <div class="contents-item">
-            <img src="../static/img/sample.jpeg">
+            <a href="/each_album"><img src="../static/img/sample.jpeg"></a>
             <p>★★★★★　　3.9</p>
         </div>
         <div class="contents-item">
-            <img src="../static/img/sample.jpeg">
+            <a href="/each_album"><img src="../static/img/sample.jpeg"></a>
             <p>★★★★★　　3.9</p>
         </div>
         <div class="contents-item">
-            <img src="../static/img/sample.jpeg">
-            <p>★★★★★　　3.9</p>
-        </div>
-    </div>
-
-    <!-- Ranking -->
-
-    <div class="rate">
-        <h1>ranking ></h1>
-        <div class="contents-item">
-            <img src="../static/img/sample.jpeg">
-            <p>★★★★★　　3.9</p>
-        </div>
-        <div class="contents-item">
-            <img src="../static/img/sample.jpeg">
-            <p>★★★★★　　3.9</p>
-        </div>
-        <div class="contents-item">
-            <img src="../static/img/sample.jpeg">
-            <p>★★★★★　　3.9</p>
-        </div>
-        <div class="contents-item">
-            <img src="../static/img/sample.jpeg">
-            <p>★★★★★　　3.9</p>
-        </div>
-        <div class="contents-item">
-            <img src="../static/img/sample.jpeg">
-            <p>★★★★★　　3.9</p>
-        </div>
-        <div class="contents-item">
-            <img src="../static/img/sample.jpeg">
+            <a href="/each_album"><img src="../static/img/sample.jpeg"></a>
             <p>★★★★★　　3.9</p>
         </div>
     </div>

@@ -1,166 +1,176 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../static/css/each_album.css">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-  <title>Album</title>
-  <style>
-    .review-box-left img{
-        width:50px;
-        height:50px;
-      }
-      .review-box-right img{
-        width:100px;
-        height:100px;
-      }
-      .jacket img{
-            width: 300px;
-            height: 300px;	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/each_album.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <title>Album</title>
+    <style>
+        .review-box-left img{
+            width:50px;
+            height:50px;
         }
-  </style>
+        .review-box-right img{
+            width:100px;
+            height:100px;
+        }
+        .jacket img{
+            width: 300px;
+            height: 300px;
+        }
+    </style>
 </head>
-<body>
-  <div class="header">
-    <div class="header-logo"> amenom </div>
-    <div class="login"> ログイン </div>
-    <div class="header-login">
-      <form method="get" action="http://www.google.co.jp/search" class="search_container"> <input type="text" size="40" placeholder="   作品・アーティスト検索"> </form>
-    </div>
-    <div class="header-list">
-      <ul>
-        <li class="bar">New Music</li>
-        <li class="bar">レビュー</li>
-        <li class="bar">ジャンル</li>
-      </ul>
-    </div>
-  </div>
-  <div class="album-title">Dark side of the moon</div>
-  <div class="album-tag-ad">
-    <div class="jacket">
-       <img src="../static/img/sample.jpeg"> </div>
-    <div class="tags">
-      <div class="tag-detail"> <span class="detail-contents">アーティスト</span> / Pink Floyd</div>
-      <div class="tag-detail"> <span class="detail-contents">ジャンル</span> / プログレ</div>
-      <div class="tag-detail"> <span class="detail-contents">リリース</span> / 1973</div>
-      <div class="tag-detail"> <span class="detail-contents">レーベル</span> / Harvest</div>
-      
-      <div class="tag-tag">
-        <div class="tag-tag-detail"><i class="fa fa-tag"></i>悲しい</div>
-        <div class="tag-tag-detail"><i class="fa fa-tag"></i>神秘的</div>
-        <div class="tag-tag-detail"><i class="fa fa-tag"></i>壮大</div>
-        <div class="tag-tag-detail"><i class="fa fa-tag"></i>ドラッグ</div>
-      </div>
-    </div>
-    <div class="track">
-      <h2>曲目</h2>
-      <div class="tracklist">
-        <ol>
-          <li>Speak To Me </li>
-          <li>Breathe </li>
-          <li>On The Run</li>
-          <li>Time</li>
-          <li>The Great Gig In The Sky</li>
-          <li>Money</li>
-          <li>Us And Them</li>
-          <li>Any Colour You Like</li>
-          <li>Brain Damage</li>
-          <li>Eclipse</li>
-        </ol>
-      </div>
-    </div>
-   
-  </div>
-  <div class="review-track">
-    <div class="review">
-      <h1>レビュー</h1>
-      <div class="review-box">
-        <div class="review-box-top">
-          <div class="review-box-left"> <img src="../static/img/sample.jpeg">
-            <p class="username">keim</p>
-            <p class="star">
-          ★★★★★ 3.6
-            </p>
-            <p class="album-name">Dark side of the moon (1973)</p>
-          </div>
-        </div>
-        <div>
-          <p> この作品は非常に素晴らしい。私はとてもこの音楽が好きだ。とても良い。とても好き。また聞きたい。明日もう一度聞く。友達も皆好き。友達と一緒に聞く。やっぱり何回も聞く。気持ちがいい。朝から聞く。 </p>
-          <p class="continue">>> 続きを読む</p>
-          <div class="heart"><span class="heartmark">&hearts;</span> 35</div>
-        </div>
-      </div>
-      <div class="review-box">
-        <div class="review-box-top">
-          <div class="review-box-left"> <img src="../static/img/sample.jpeg">
-            <p class="username">keim</p>
-            <p class="star">
-          ★★★★★ 3.6
-            </p>
-            <p class="album-name">Dark side of the moon (1973)</p>
-          </div>
-        </div>
-        <div>
-          <p> この作品は非常に素晴らしい。私はとてもこの音楽が好きだ。とても良い。とても好き。また聞きたい。明日もう一度聞く。友達も皆好き。友達と一緒に聞く。やっぱり何回も聞く。気持ちがいい。朝から聞く。 </p>
-          <p class="continue">>> 続きを読む</p>
-          <div class="heart"><span class="heartmark">&hearts;</span> 35</div>
 
+<body>
+    <div class="header">
+        <div class="header-logo"><a class="header-logo-text" href="/">amenom</a></div>
+
+        <div class="login"> ログイン </div>
+
+        <div class="header-login">
+            <form method="get" action="http://www.google.co.jp/search" class="search_container"> <input type="text" size="40" placeholder="   作品・アーティスト検索"> </form>
         </div>
-      </div>
-      <div class="review-box">
-        <div class="review-box-top">
-          <div class="review-box-left"> <img src="../static/img/sample.jpeg">
-            <p class="username">keim</p>
-            <p class="star">
-          ★★★★★ 3.6
-            </p>
-            <p class="album-name">Dark side of the moon (1973)</p>
-          </div>
+
+        <div class="header-list">
+            <ul>
+                <li class="bar"><a class="header-list-text" href="/new_music">New Music</a></li>
+                <li class="bar"><a class="header-list-text" href="/reviews">レビュー</a></li>
+                <li class="bar"><a class="header-list-text" href="/genre">ジャンル</a></li>
+            </ul>
         </div>
-        <div>
-          <p> この作品は非常に素晴らしい。私はとてもこの音楽が好きだ。とても良い。とても好き。また聞きたい。明日もう一度聞く。友達も皆好き。友達と一緒に聞く。やっぱり何回も聞く。気持ちがいい。朝から聞く。 </p>
-          <p class="continue">>> 続きを読む</p>
-          <div class="heart"><span class="heartmark">&hearts;</span> 35</div>
+    </div>
+
+    <div class="album-title">Dark side of the moon</div>
+
+    <div class="album-tag-ad">
+        <div class="jacket">
+            <img src="../static/img/sample.jpeg">
         </div>
-      </div>
-      <div class="review-box">
-        <div class="review-box-top">
-          <div class="review-box-left"> <img src="../static/img/sample.jpeg">
-            <p class="username">keim</p>
-            <p class="star">
-          ★★★★★ 3.6
-            </p>
-            <p class="album-name">Dark side of the moon (1973)</p>
-          </div>
+        <div class="tags">
+            <div class="tag-detail"> <span class="detail-contents">アーティスト</span> / Pink Floyd</div>
+            <div class="tag-detail"> <span class="detail-contents">ジャンル</span> / プログレ</div>
+            <div class="tag-detail"> <span class="detail-contents">リリース</span> / 1973</div>
+            <div class="tag-detail"> <span class="detail-contents">レーベル</span> / Harvest</div>
+
+            <div class="tag-tag">
+                <div class="tag-tag-detail"><i class="fa fa-tag"></i>悲しい</div>
+                <div class="tag-tag-detail"><i class="fa fa-tag"></i>神秘的</div>
+                <div class="tag-tag-detail"><i class="fa fa-tag"></i>壮大</div>
+                <div class="tag-tag-detail"><i class="fa fa-tag"></i>ドラッグ</div>
+            </div>
         </div>
-        <div>
-          <p> この作品は非常に素晴らしい。私はとてもこの音楽が好きだ。とても良い。とても好き。また聞きたい。明日もう一度聞く。友達も皆好き。友達と一緒に聞く。やっぱり何回も聞く。気持ちがいい。朝から聞く。 </p>
-          <p class="continue">>> 続きを読む</p>
-          <div class="heart"><span class="heartmark">&hearts;</span> 35</div>
+
+        <div class="track">
+            <h2>曲目</h2>
+            <div class="tracklist">
+                <ol>
+                    <li>Speak To Me </li>
+                    <li>Breathe </li>
+                    <li>On The Run</li>
+                    <li>Time</li>
+                    <li>The Great Gig In The Sky</li>
+                    <li>Money</li>
+                    <li>Us And Them</li>
+                    <li>Any Colour You Like</li>
+                    <li>Brain Damage</li>
+                    <li>Eclipse</li>
+                </ol>
+            </div>
         </div>
-      </div>
-      <div class="review-box">
-        <div class="review-box-top">
-          <div class="review-box-left"> <img src="../static/img/sample.jpeg">
-            <p class="username">keim</p>
-            <p class="star">
-          ★★★★★ 3.6
-            </p>
-            <p class="album-name">Dark side of the moon (1973)</p>
-          </div>
-        </div>
-        <div>
-          <p> この作品は非常に素晴らしい。私はとてもこの音楽が好きだ。とても良い。とても好き。また聞きたい。明日もう一度聞く。友達も皆好き。友達と一緒に聞く。やっぱり何回も聞く。気持ちがいい。朝から聞く。 </p>
-          <p class="continue">>> 続きを読む</p>
-          <div class="heart"><span class="heartmark">&hearts;</span> 35</div>
-        </div>
-      </div>
-      <div class="pagination"> <a href="#">&laquo;</a> <a href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">6</a> <a href="#">&raquo;</a> </div>
+
+    </div>
+
+    <div class="review-track">
+    <div class="review">
+    <h1>レビュー</h1>
+    <div class="review-box">
+    <div class="review-box-top">
+    <div class="review-box-left"> <img src="../static/img/sample.jpeg">
+    <p class="username">keim</p>
+    <p class="star">
+    ★★★★★ 3.6
+    </p>
+    <p class="album-name">Dark side of the moon (1973)</p>
+    </div>
+    </div>
+    <div>
+    <p> この作品は非常に素晴らしい。私はとてもこの音楽が好きだ。とても良い。とても好き。また聞きたい。明日もう一度聞く。友達も皆好き。友達と一緒に聞く。やっぱり何回も聞く。気持ちがいい。朝から聞く。 </p>
+    <p class="continue"><a href="/each_review">> 続きを読む</a></p>
+    <div class="heart"><span class="heartmark">&hearts;</span> 35</div>
+    </div>
+    </div>
+    <div class="review-box">
+    <div class="review-box-top">
+    <div class="review-box-left"> <img src="../static/img/sample.jpeg">
+    <p class="username">keim</p>
+    <p class="star">
+    ★★★★★ 3.6
+    </p>
+    <p class="album-name">Dark side of the moon (1973)</p>
+    </div>
+    </div>
+    <div>
+    <p> この作品は非常に素晴らしい。私はとてもこの音楽が好きだ。とても良い。とても好き。また聞きたい。明日もう一度聞く。友達も皆好き。友達と一緒に聞く。やっぱり何回も聞く。気持ちがいい。朝から聞く。 </p>
+    <p class="continue"><a href="/each_review">> 続きを読む</a></p>
+    <div class="heart"><span class="heartmark">&hearts;</span> 35</div>
+
+    </div>
+    </div>
+    <div class="review-box">
+    <div class="review-box-top">
+    <div class="review-box-left"> <img src="../static/img/sample.jpeg">
+    <p class="username">keim</p>
+    <p class="star">
+    ★★★★★ 3.6
+    </p>
+    <p class="album-name">Dark side of the moon (1973)</p>
+    </div>
+    </div>
+    <div>
+    <p> この作品は非常に素晴らしい。私はとてもこの音楽が好きだ。とても良い。とても好き。また聞きたい。明日もう一度聞く。友達も皆好き。友達と一緒に聞く。やっぱり何回も聞く。気持ちがいい。朝から聞く。 </p>
+    <p class="continue"><a href="/each_review">> 続きを読む</a></p>
+    <div class="heart"><span class="heartmark">&hearts;</span> 35</div>
+    </div>
+    </div>
+    <div class="review-box">
+    <div class="review-box-top">
+    <div class="review-box-left"> <img src="../static/img/sample.jpeg">
+    <p class="username">keim</p>
+    <p class="star">
+    ★★★★★ 3.6
+    </p>
+    <p class="album-name">Dark side of the moon (1973)</p>
+    </div>
+    </div>
+    <div>
+    <p> この作品は非常に素晴らしい。私はとてもこの音楽が好きだ。とても良い。とても好き。また聞きたい。明日もう一度聞く。友達も皆好き。友達と一緒に聞く。やっぱり何回も聞く。気持ちがいい。朝から聞く。 </p>
+    <p class="continue"><a href="/each_review">> 続きを読む</a></p>
+    <div class="heart"><span class="heartmark">&hearts;</span> 35</div>
+    </div>
+    </div>
+    <div class="review-box">
+    <div class="review-box-top">
+    <div class="review-box-left"> <img src="../static/img/sample.jpeg">
+    <p class="username">keim</p>
+    <p class="star">
+    ★★★★★ 3.6
+    </p>
+    <p class="album-name">Dark side of the moon (1973)</p>
+    </div>
+    </div>
+    <div>
+    <p> この作品は非常に素晴らしい。私はとてもこの音楽が好きだ。とても良い。とても好き。また聞きたい。明日もう一度聞く。友達も皆好き。友達と一緒に聞く。やっぱり何回も聞く。気持ちがいい。朝から聞く。 </p>
+    <p class="continue"><a href="/each_review">> 続きを読む</a></p>
+    <div class="heart"><span class="heartmark">&hearts;</span> 35</div>
+    </div>
+    </div>
+    <div class="pagination"> <a href="">&laquo;</a> <a href="">1</a> <a href="">2</a> <a href="">3</a> <a href="">4</a> <a href="">5</a> <a href="">6</a> <a href="">&raquo;</a> </div>
     </div>
     <div class="ad"> <img src="bnr_square.png" alt=""> </div>
-    
-  </div>
-  <div class="footer"> © 2022 amenom </div>
+
+    </div>
+
+    <div class="footer"> © 2022 amenom </div>
 </body>

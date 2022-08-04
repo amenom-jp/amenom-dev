@@ -1,35 +1,170 @@
 @charset "utf-8";
-.header{background-color:darkturquoise; color:aliceblue; height:100px; margin:0px;}
-.header-logo{font-family:"Quicksand"; padding:10px 20px; font-size:36px;float:left}
-body{margin:0}
-li{ float:left;list-style: none; }
-ul{padding-left: 230px;}
-ul li{font-size:16px; padding-left:50px;padding-top:0px;color:aliceblue;}
-.header-login{float:right;padding-right:30px}
-.login{float:right;font-size:16px;padding:16px 30px 5px 0px}
-.header-list{clear:left}
-form{padding:14px 0px 25px 20px;}
-form input[type="text"]{height:24px;border-radius:1.5rem 1.5rem 1.5rem 1.5rem}
-.review{display:flex;   justify-content: space-evenly;}
-.review-box{width:26%;height:350px;background-color:#fafafa;word-break: break-all;padding:7px;box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);}
-.review-box-right{text-align: right;}
-.review-box-right img{padding:20px 20px 0px 0px;}
-.review-box-left img{border-radius:50%;padding:20px ;float:left}
-.username{font-size:15px;color:darkturquoise;font-weight: bold;}
-.album-name{clear:left;font-weight:bold;word-break: normal;}
-.review-box-top{display:flex;justify-content: space-between;}
-.review-box p{padding:0px 12px 0px 12px;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+
+.header {
+    background-color: darkturquoise;
+    color: aliceblue;
+    height: 100px;
+    margin: 0px;
 }
-.continue{color:darkturquoise;font-weight: bold;}
-.star{text-align: right;color:darkturquoise;font-weight:bold;}
-.contents-item{
-    float:left;padding-left:56px
+
+.header-logo {
+    padding: 10px 20px;
+    float: left;
+}
+
+body {
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo-text {
+    font-family: "Quicksand";
+    font-size: 36px;
+    color: aliceblue;
+}
+
+.header-list-text {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+ul {
+    padding-left: 230px;
+}
+ul li {
+    font-size: 16px;
+    padding-left: 50px;
+    padding-top: 0px;
+    color: aliceblue;
+}
+
+.header-login {
+    float: right;
+    padding-right: 30px
+}
+
+.login {
+    float: right;
+    font-size: 16px;
+    padding: 16px 30px 5px 0px
+}
+
+.header-list {
+    clear: left
+}
+
+form {
+    padding: 14px 0px 25px 20px;
+}
+
+form input[type="text"] {
+    height: 24px;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem
+}
+
+.review {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.review-box {
+    width: 26%;
+    height: 350px;
+    background-color: #fafafa;
+    word-break: break-all;
+    padding: 7px;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.review-box-right {
+    text-align: right;
+}
+
+.review-box-right img {
+    padding: 20px 20px 0px 0px;
+}
+
+.review-box-left img {
+    border-radius: 50%;
+    padding: 20px;
+    float: left
+}
+
+.username {
+    font-size: 15px;
+    color: darkturquoise;
+    font-weight: bold;
+}
+
+.album-name {
+    clear: left;
+    font-weight: bold;
+    word-break: normal;
+}
+
+.review-box-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-box p {
+    padding: 0px 12px 0px 12px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.continue a {
+    color: darkturquoise;
+    font-weight: bold;
+}
+
+.star {
+    text-align: right;
+    color: darkturquoise;
+    font-weight: bold;
+}
+
+.contents-item {
+    float: left;
+    padding-left: 56px;
   }
-.contents-item p{text-align: right;padding-right:5px;color:darkturquoise;font-size: 15px;font-weight:bold}
-  h1{font-size:24px;padding:50px 0px 20px 60px;clear:left;color:darkturquoise;font-family:"Quicksand";}
-.footer{font-size:20px;clear:left;background-color: darkturquoise;padding:50px;
-    text-align: center;margin-top: 400px;color:aliceblue;font-family:"Quicksand"}
+
+.contents-item p {
+    text-align: right;
+    padding-right: 5px;
+    color: darkturquoise;
+    font-size: 15px;
+    font-weight: bold
+}
+
+h1 {
+    font-size: 24px;
+    padding: 50px 0px 20px 60px;
+    clear: left;
+    color: darkturquoise;
+    font-family: "Quicksand";
+}
+h1 a {
+    color: darkturquoise;
+}
+
+.footer {
+    font-size: 20px;
+    clear: left;
+    background-color: darkturquoise;
+    padding: 50px;
+    text-align: center;
+    margin-top: 400px;
+    color: aliceblue;
+    font-family: "Quicksand"
+}

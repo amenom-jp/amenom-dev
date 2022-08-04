@@ -16,6 +16,20 @@ article {
   }
   .header{background-color:darkturquoise; color:aliceblue; height:100px; margin:0px;}
   .header-logo{font-family:"Quicksand"; padding:10px 20px; font-size:36px;float:left}
+a {
+    text-decoration: none;
+}
+
+.header-logo-text {
+    font-family: "Quicksand";
+    font-size: 36px;
+    color: aliceblue;
+}
+
+.header-list-text {
+    font-size: 16px;
+    color: aliceblue;
+}
   body{margin:0}
   li{ float:left;list-style: none; }
   ul{padding-left: 230px;}
@@ -33,7 +47,7 @@ article {
   .album-name{clear:left;font-weight:bold;word-break: normal;font-size:20px}
   .review-box-top{display:flex;justify-content: space-between;}
   .review-box p{padding:10px 12px 10px 12px;}
-  .continue{color:darkturquoise;font-weight: bold;}
+  .continue a{color:darkturquoise;font-weight: bold;}
   .heart{float:left;font-size:20px;padding:10px 0px 0px 20px;}
   .heartmark{color:pink;font-size:25px}
   .star{text-align:right;color:darkturquoise;font-size:20px;font-wight:bold;}
